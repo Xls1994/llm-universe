@@ -99,7 +99,7 @@ def generate_prompt(query, docs):
 
 
 def get_zhipu_client():
-    api_key="19b9ada64a0d33b7abb8b31e971ea3e9.hKaXQLX8yJImQbCj"
+    api_key="填写您自己的APIKey"
     client = ZhipuAI(api_key=api_key) # 填写您自己的APIKey
     return client
 
