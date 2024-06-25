@@ -100,11 +100,11 @@ def generate_ppt_file(topic,ppt_content):
     ppt.save('%s.pptx'%topic)
 
 if __name__=='__main__':
-    while True:
-        # 输入需求
-        topic=input('输入主题:')
-        pages=int(input('输入页数:'))
-        # 生成PPT内容
-        ppt_content=generate_ppt_content(topic,pages)
-        # 生成PPT文件
-        generate_ppt_file(topic,ppt_content)
+    
+    # 输入需求
+    topic=input('输入主题:')
+    pages=int(input('输入页数:'))
+    # 生成PPT内容
+    ppt_content=generate_ppt_content(topic,pages)
+    # 生成PPT文件
+    generate_ppt_file(topic,ppt_content)
